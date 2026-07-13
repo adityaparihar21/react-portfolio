@@ -1,0 +1,169 @@
+{
+  "brand": {
+    "name": "Aditya Parihar",
+    "monogram": "AP",
+    "location": "Based in India",
+    "nav": [
+      {
+        "label": "Home",
+        "href": "#top"
+      },
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Creative",
+        "href": "#creative"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ]
+  },
+  "selectedWork": {
+    "eyebrow": "Technical Portfolio",
+    "title": "Featured Engineering",
+    "viewAll": {
+      "label": "View All on GitHub",
+      "href": "https://github.com/adityaparihar21"
+    },
+    "projects": [
+      {
+        "id": "lingo",
+        "category": "CSS · Semantic AI · Enterprise",
+        "title": "LINGO..",
+        "description": "AI language for faster insights and zero chaos.",
+        "image": "/lingo.png",
+        "href": "https://lingooo-one.vercel.app",
+        "repo": "https://github.com/adityaparihar21/day3-advanced-css",
+        "role": "Lead Developer & Creative Director",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "GSAP",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "id": "portfolio",
+        "category": "React · GSAP · Three.js · WebGL",
+        "title": "Interactive Dual-Themed Portfolio",
+        "description": "A premium web experience built entirely from scratch — not a template in sight.",
+        "image": "/intro bg.jpeg",
+        "href": "https://portfolioparihar21.vercel.app/",
+        "repo": "https://github.com/adityaparihar21/portfolio_parihar21",
+        "role": "Lead Developer & Creative Director",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "GSAP",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "id": "ctj",
+        "category": "React · Tailwind · Framer Motion · Real-time sync",
+        "title": "Communal Typewriter Journal",
+        "description": "A digital journaling space inspired by vintage typewriters, analog poetry, and shared silence.",
+        "image": "/ctj21.jpg",
+        "href": "https://ctj21.vercel.app",
+        "repo": "https://github.com/adityaparihar21/ctj21",
+        "role": "Lead Developer & Creative Director",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "GSAP",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "id": "ascii-engine",
+        "category": "Java · Image Processing · Computer Vision",
+        "title": "Real-Time ASCII Engine",
+        "description": "Live webcam feed converted to ASCII art in real-time — 30fps, pure Java.",
+        "image": "/asciii.jpg",
+        "href": "#",
+        "repo": "https://github.com/adityaparihar21/ascii-webcam",
+        "role": "Lead Developer & Creative Director",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "GSAP",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "id": "trip-co",
+        "category": "AI · React · Custom pipeline · Streaming UX",
+        "title": "Trip Co",
+        "description": "Input your travel preferences. Get a full itinerary in ~2 seconds.",
+        "image": "/tripco.png",
+        "href": "https://tripco-puce.vercel.app",
+        "repo": "https://github.com/adityaparihar21/tripco",
+        "role": "Lead Developer & Creative Director",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "GSAP",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "id": "weather-hut",
+        "category": "React · REST API · UI/UX · CSS Animation",
+        "title": "WeatherHUT",
+        "description": "Weather, but actually beautiful to look at.",
+        "image": "/weather-hut.png",
+        "href": "https://weatherhut-zeta.vercel.app",
+        "repo": "https://github.com/adityaparihar21/weatherhut",
+        "role": "Lead Developer & Creative Director",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "GSAP",
+          "TailwindCSS"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Software Engineering & Architecture",
+    "paragraphs": [
+      "I'm Aditya Parihar, a BTech CSE student specializing in Artificial Intelligence and Machine Learning at UPES. I'm passionate about backend architecture, computational logic, and software development."
+    ],
+    "cta": {
+      "label": "Get in Touch",
+      "href": "#contact"
+    },
+    "portrait": ""
+  },
+  "testimonial": {
+    "eyebrow": "Philosophy",
+    "title": "What drives the work",
+    "quote": "I build software with intention, logic, and an obsession for the details that make a system robust and efficient.",
+    "author": "Aditya Parihar"
+  },
+  "devCta": {
+    "eyebrow": "06 / Open to Work",
+    "title": "Let's build together.",
+    "description": "Open to engineering collaborations, systems architecture discussions, and open-source contributions. Let's create something robust.",
+    "email": "parihar21aditya@gmail.com",
+    "socials": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/adityaparihar21"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/aditya-parihar-974b72281"
+      }
+    ]
+  }
+}
