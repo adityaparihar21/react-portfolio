@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import AP3DMonogram from "../components/AP3DMonogram";
@@ -9,18 +8,6 @@ import { siteData } from "@/lib/site-data";
 import { useContent } from "@/lib/use-content";
 import { ProjectDrawer, type DrawerProject } from "@/components/ProjectDrawer";
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: `${siteData.brand.name} — Software Engineer` },
-      {
-        name: "description",
-        content: "Software Engineer specializing in AI, Machine Learning, and highly performant backend architecture.",
-      },
-    ],
-  }),
-  component: Index,
-});
 
 /* ---------------- Shared motion presets ---------------- */
 const EASE_OUT_EXPO = [0.22, 1, 0.36, 1] as const;
@@ -66,7 +53,7 @@ function Header({ data }: { data: ReturnType<typeof useContent> }) {
         </a>
         <nav className="hidden items-center gap-10 md:flex">
           {data.brand.nav
-            .flatMap((item) => {
+            .flatMap((item: any) => {
               if (item.label.toLowerCase() === "work") {
                 return [
                   { ...item, label: "Projects" },
@@ -76,7 +63,7 @@ function Header({ data }: { data: ReturnType<typeof useContent> }) {
               if (item.label.toLowerCase() === "creative") return [];
               return item;
             })
-            .map((item, i) => (
+            .map((item: any, i: number) => (
               <a
                 key={item.href}
                 href={item.href}
@@ -106,7 +93,7 @@ function Header({ data }: { data: ReturnType<typeof useContent> }) {
         >
           <nav className="flex flex-col px-6 py-8 gap-6">
             {data.brand.nav
-              .flatMap((item) => {
+              .flatMap((item: any) => {
                 if (item.label.toLowerCase() === "work") {
                   return [
                     { ...item, label: "Projects" },
@@ -116,7 +103,7 @@ function Header({ data }: { data: ReturnType<typeof useContent> }) {
                 if (item.label.toLowerCase() === "creative") return [];
                 return item;
               })
-              .map((item) => (
+              .map((item: any) => (
                 <a
                   key={item.href}
                   href={item.href}
@@ -305,7 +292,7 @@ function CallToAction({ data }: { data: ReturnType<typeof useContent> }) {
 }
 
 /* ---------------- Main Page ---------------- */
-export default function Index() {
+export default function Home() {
   const data = useContent();
   const [selectedProject, setSelectedProject] = useState<DrawerProject | null>(null);
 
